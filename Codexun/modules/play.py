@@ -178,7 +178,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     # description
     views = f"Views : {views}"
     duration = f"Duration : {duration} minutes"
-    channel = f"Request : {BOT_NAME} Bot"
+    channel = f"Request : LUCKY MUSICS BOT"
 
     image4.text((670, 410), text=views, fill="white", font = font4, align ="left") 
     image4.text((670, 460), text=duration, fill="white", font = font4, align ="left") 
@@ -207,44 +207,44 @@ async def play(_, message: Message):
     user_id = message.from_user.id
     if message.sender_chat:
         return await message.reply_text(
-            " __You're an **Anonymous Admin**!__\n│\n╰ Revert back to user account from admin rights."
+            "ʏᴏᴜ ᴀʀᴇ ᴀɴ **ᴀɴᴏɴʏᴍᴏᴜꜱ ᴀᴅᴍɪɴ**!__\n│\n╰ ʀᴇᴠᴇʀᴛ ʙᴀᴄᴋ ᴛᴏ ᴜʀ ᴀᴄᴄᴏᴜɴᴛ ꜰʀᴏᴍ ᴀᴅᴍɪɴ ʀɪɢʜᴛꜱ."
         )
 
     if message.chat.id in DISABLED_GROUPS:
         await message.reply(
-            " __**Music player is turned off, ask the admin to turn on it on!**__"
+            "**ᴍᴜꜱɪᴄ ᴘʟᴀʏᴇʀ ɪꜱ ᴛᴜʀɴᴇᴅ ᴏꜰꜰ, ᴀꜱᴋ ᴛʜᴇ ᴀᴅᴍɪɴ ᴛᴏ ᴛᴜʀɴ ɪᴛ ᴏɴ!**__"
         )
       
 
         return
-    lel = await message.reply("**🔄 | Processing...**")
+    lel = await message.reply("**ᴘʀᴏᴄᴄᴇꜱꜱɪɴɢ ᴘʟᴇᴀꜱᴇ ᴡᴀɪᴛ ʙᴀʙʏ...✰**")
 
     chid = message.chat.id
 
     c = await app.get_chat_member(message.chat.id, BOT_ID)
     if c.status != "administrator":
         await lel.edit(
-            f"**Make me admin first !**"
+            f"**ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ꜰɪʀꜱᴛ !**"
         )
         return
     if not c.can_manage_voice_chats:
         await lel.edit(
-            "**Give me** `manage voice chat` **admin permission.**"
+            "**ɢɪᴠᴇ ᴍᴇ** ᴍᴀɴᴀɢᴇᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ **ᴀᴅᴍɪɴ ᴘᴇʀᴍɪꜱꜱɪᴏɴ.**"
         )
         return
     if not c.can_delete_messages:
         await lel.edit(
-            "**Give me** `Delete massages` **admin permission.**"
+            "**ɢɪᴠᴇ ᴍᴇ** ᴅᴇʟᴇᴛᴇ ᴍꜱɢ **ᴀᴅᴍɪɴ ᴘᴇʀᴍɪꜱꜱɪᴏɴ.**"
         )
         return
     if not c.can_invite_users:
         await lel.edit(
-            "**Give me** `invite user` **admin permission.**"
+            "**ɢɪᴠᴇ ᴍᴇ** ɪɴᴠɪᴛᴇ ᴜꜱᴇʀꜱ **ᴀᴅᴍɪɴ ʀɪɢʜᴛꜱ.**"
         )
         return
     if not c.can_restrict_members:
         await lel.edit(
-            "**Give me** `ban user` **admin permission.**"
+            "**ɢɪʙ ᴍᴇ** ʙᴀɴ ᴜꜱᴇʀꜱ **ᴀᴅᴍɪɴ ʀɪɢʜᴛꜱ.**"
         )
         return
 
@@ -252,7 +252,7 @@ async def play(_, message: Message):
         b = await app.get_chat_member(message.chat.id, ASSID)
         if b.status == "kicked":
             await message.reply_text(
-                f"🔴 {ASSNAME} (@{ASSUSERNAME}) is banned in your chat **{message.chat.title}**\n\nUnban it first to use music"
+                f"🔴 {ASSNAME} (@{ASSUSERNAME}) ɪꜱ ʙᴀɴɴᴇᴅ ɪɴ ᴜʀ ᴄʜᴀᴛ **{message.chat.title}**\n\nᴜɴʙᴀɴ ɪᴛ ꜰɪʀꜱᴛ ᴛᴏ ᴜꜱᴇ ᴍᴜꜱɪᴄ"
             )
             return
     except UserNotParticipant:
@@ -260,12 +260,12 @@ async def play(_, message: Message):
             try:
                 await ASS_ACC.join_chat(f"{message.chat.username}")
                 await message.reply(
-                    f"**@{ASSUSERNAME} joined !**",
+                    f"**@{ASSUSERNAME} ᴊᴏɪɴᴇᴅ !**",
                 )
                 await remove_active_chat(chat_id)
             except Exception as e:
                 await message.reply_text(
-                    f"**@{ASSUSERNAME} failed to join** Add @{ASSUSERNAME} manually in your group.\n\n**Reason**:{e}"
+                    f"**@{ASSUSERNAME} ꜰᴀɪʟᴇᴅ ᴛᴏ ᴊᴏɪɴ** ᴀᴅᴅ @{ASSUSERNAME} ᴍᴀɴᴜᴀʟʟʏ ɪɴ ᴜʀ ɢʀᴏᴜᴘ.\n\n**ʀᴇᴀꜱᴏɴ**:{e}"
                 )
                 return
         else:
@@ -276,14 +276,14 @@ async def play(_, message: Message):
                     link_bokep = f"https://t.me/joinchat/{kontol}"
                 await ASS_ACC.join_chat(link_bokep)
                 await message.reply(
-                    f"**@{ASSUSERNAME} joined successfully**",
+                    f"**@{ASSUSERNAME} ᴊᴏɪɴᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ**",
                 )
                 await remove_active_chat(message.chat.id)
             except UserAlreadyParticipant:
                 pass
             except Exception as e:
                 return await message.reply_text(
-                    f"**@{ASSUSERNAME} failed to join** Add @{ASSUSERNAME} manually in your group.\n\n**Reason**:{e}"
+                    f"**@{ASSUSERNAME} ꜰᴀɪʟᴇᴅ ᴛᴏ ᴊᴏɪɴ** ᴀᴅᴅ @{ASSUSERNAME} ᴍᴀɴᴜᴀʟʟʏ ɪɴ ᴜʀ ɢʀᴏᴜᴘ.\n\n**ʀᴇᴀꜱᴏɴ**:{e}"
                 )
 
     await message.delete()
@@ -297,7 +297,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"💡 Videos longer than {DURATION_LIMIT} minutes aren't allowed to play!"
+                f"💡 ᴠɪᴅᴇᴏꜱ ʟᴏɴɢᴇʀʀ ᴛʜᴇɴ {DURATION_LIMIT} ᴍɪɴᴜᴛᴇꜱ ᴀʀᴇ'ᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ!"
             )
 
         file_name = get_file_name(audio)
@@ -312,10 +312,10 @@ async def play(_, message: Message):
     [
         
        [
-            InlineKeyboardButton("⚙️ Manage", callback_data="cbmenu"),
-            InlineKeyboardButton("About 👨🏻‍💻", callback_data="nonabout"),
+            InlineKeyboardButton("✪ ᴄᴘᴀɴᴇʟ", callback_data="cbmenu"),
+            InlineKeyboardButton("ᴀʙᴏᴜᴛ ✪", callback_data="nonabout"),
         ],[
-            InlineKeyboardButton("Close 🗑️", callback_data="cls"),
+            InlineKeyboardButton("✪ ᴄʟᴏꜱᴇ ᴍᴇɴᴜ ✪", callback_data="cls"),
         ],
         
     ]

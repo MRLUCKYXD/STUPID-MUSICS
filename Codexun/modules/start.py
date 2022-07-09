@@ -15,7 +15,7 @@ from Codexun.config import START_IMG
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_IMG}",
-        caption=f"""**Welcome {message.from_user.mention()}** 👋
+        caption=f"""**ᴡᴇʟᴄᴏᴍᴇ {message.from_user.mention()}** 👋
 
 This is the **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) Bot,** a bot for playing high quality and unbreakable music in your groups voice chat.
 

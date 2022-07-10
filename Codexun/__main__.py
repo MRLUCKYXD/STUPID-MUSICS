@@ -25,7 +25,7 @@ async def load_start():
             await app.edit_message_text(
                 restart_data["chat_id"],
                 restart_data["message_id"],
-                "**Restarted the Bot Successfully.**",
+                "**ʀᴇꜱᴛᴀʀᴛᴇᴅ ᴛʜᴇ ʙᴏᴛ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ.**",
             )
         except Exception:
             pass
@@ -42,7 +42,7 @@ async def load_start():
         except Exception as e:
             print("Error came while clearing db")
             pass
-    await app.send_message(OWNER_ID, "**Bot Started Successfully**\n\nMake sure you joined @Codexun for regular updates from us.")
+    await app.send_message(OWNER_ID, "**🍒 ʙᴛ ꜱᴛᴀʀᴛᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ**\n\nᴍᴀᴋᴇ ꜱᴜʀᴇ ʏᴏᴜ ᴊᴏɪɴᴇᴅ @TeraYaarHooMai ꜰᴏʀ ʀᴇɢᴜʟᴀʀ ᴜᴘᴅᴀᴛᴇꜱ ꜰʀᴏᴍ ᴜꜱ.")
     # If you change it then bot will be crash © copyrighted area
     await client.join_chat("teamcodexun")
     await client.join_chat("codexun")

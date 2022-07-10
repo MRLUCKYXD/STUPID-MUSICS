@@ -24,13 +24,13 @@
 
 <h3>
 
-## Requirements
+## ʀᴇQᴜɪʀᴍᴇɴᴛꜱ
 
-- FFmpeg
-- Python 3.10.0
-- [NodeJS](https://nodesource.com/)
-- [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
-- [MongoDB](https://cloud.mongodb.com/)
+- ꜰꜰᴍᴘᴇɢ
+- ᴘʏᴛʜᴏɴ 3.10.0
+- [ɴᴏᴅᴇᴊꜱ](https://nodesource.com/)
+- [ᴘʏᴛɢᴄᴀʟʟꜱ](https://github.com/pytgcalls/pytgcalls)
+- [ᴍᴏɴɢᴏᴅʙ](https://cloud.mongodb.com/)
 
 
 ## ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ
@@ -40,32 +40,32 @@
 ꜰɪʀꜱᴛ ꜰᴏʀᴋ ᴛʜɪꜱ ʀᴇᴘᴏ
 ᴛʜᴇɴ ᴄᴏᴘʏ ᴜʀ ꜰᴏʀᴋᴇᴅ ᴜʀʟ
 ꜱɪᴍᴘʟʏ ɴᴏᴡ ʀᴇᴘʟᴀᴄᴇ ɪᴛ ᴡɪᴛʜ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ
-If you didn't know how to do this
-Then simply contact us at support group.
-# suggesting to select Europe server for lag-free music.
+ɪꜰ ʏᴏᴜ ᴅɪᴅɴ'ᴛ ᴋɴᴏᴡ ʜᴏᴡ ᴛᴏ ᴅᴏ ᴛʜɪꜱ
+ᴛʜᴇɴ ꜱɪᴍᴘʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ ᴀᴛ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ.
+# ꜱᴜɢɢᴇꜱᴛɪɴɢ ᴛᴏ ꜱᴇʟᴇᴄᴛ ᴇᴜʀᴏᴘᴇ ꜱᴇʀᴠᴇʀ ꜰᴏʀ ʟᴀɢ ꜰʀᴇᴇ ᴍᴜꜱɪᴄ.
 ```
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/PavanMagar/CodexunMusicBot"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" target="_blank"/></a></p>  
-<p align="center"><a href="https://telegram.dog/XTZ_HerokuBot?start=UGF2YW5NYWdhci9Db2RleHVuTXVzaWNCb3QgbWFpbg"><img src="https://img.shields.io/badge/Deploy%20Via%20Telegram-blue?style=for-the-badge&logo=telegram" width="250""/</a>  </p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/mrluckyxd/stupid-musics"><img src="https://www.herokucdn.com/deploy/button.svg" alt="ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ" target="_blank"/></a></p>  
+<p align="center"><a href="https://telegram.dog/XTZ_HerokuBot?start=UGF2YW5NYWdhci9Db2RleHVuTXVzaWNCb3QgbWFpbg"><img src="https://img.shields.io/badge/ᴅᴇᴘʟᴏʏ%20ᴠɪᴀ%20ᴛᴇʟᴇɢʀᴀᴍ-blue?style=for-the-badge&logo=telegram" width="250""/</a>  </p>
 
 
-## Get Support
+## ɢᴇᴛ ꜱᴜᴘᴘᴏʀᴛ
 
-<a href="https://t.me/TeamCodexun"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/codexun"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/Terayaarhoomai"><img src="https://img.shields.io/badge/ᴊᴏɪɴ-ɢʀᴏᴜᴘ%20ꜱᴜᴘᴘᴏʀᴛ-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/official_lucky01"><img src="https://img.shields.io/badge/ᴊᴏɪɴ-ᴜᴘᴅᴀᴛᴇꜱ%20ᴄʜᴀɴɴᴇʟ-blue.svg?style=for-the-badge&logo=Telegram"></a>
 
 
-## Credits
+## ᴄʀᴇᴅɪᴛꜱ
 
 </details>
 
 <details>
-<summary><b> Click to see credits </b></summary>
+<summary><b> ᴄʟɪᴄᴋ ᴛᴏ ꜱᴇᴇ ᴄʀᴇᴅɪᴛꜱ </b></summary>
 <br>
  
-- Callmusic 
-- VCPlayerBot
-- Veez
-- TGVCBot
-- Yukki
-- PyTgCalls
+- ᴄᴀʟʟᴍᴜꜱɪᴄ
+- ᴠᴄᴘʟᴀʏᴇʀʙᴏᴛ
+- ᴠᴇᴇᴢ
+- ᴛɢᴠᴄʙᴏᴛ
+- ʏᴜᴋᴋɪ
+- ᴘʏᴛɢᴄᴀʟʟꜱ
 
-~ Some pirro's thinking that it's a kang of [YukkiMusicBot](https://t.me/TheYukki) for their kind information, This bot is based on the original work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork YukkiMusicBot wont exist. YukkiMusicBot is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic) for fit the needs of some users.
+~ ꜱᴏᴍᴇ ᴘɪʀʀᴏ'ꜱ ᴛʜɪɴᴋɪɴɢ ᴛʜᴀᴛ ɪᴛꜱ ᴀ ᴋᴀɴɢ ᴏꜰ [YᴜᴋᴋɪMᴜꜱɪᴄBᴏᴛ](https://t.me/TheYukki) ꜰᴏʀ ᴛʜᴇɪʀ ᴋɪɴᴅ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ, ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ʙᴀꜱᴇᴅ ᴏɴ ᴏʀɪɢɪɴᴀʟ ᴡᴏʀᴋ ᴅᴏɴᴇ ʙʏ [Rojserbest](http://github.com/rojserbest). ᴡɪᴛʜᴏᴜᴛ ʜɪꜱ ʜᴀʀᴅᴡᴏʀᴋ YᴜᴋᴋɪMᴜꜱɪᴄBᴏᴛ ᴡᴏɴᴛ ᴇxɪꜱᴛ. YᴜᴋᴋɪMᴜꜱɪᴄBᴏᴛ ɪꜱ ᴀ ᴍᴏᴅɪꜰɪᴇᴅ ᴠᴇʀꜱɪᴏɴ ᴏꜰ [Callsmusic](https://github.com/callsmusic/callsmusic) ꜰᴏʀ ꜰɪᴛ ᴛʜᴇ ɴᴇᴇᴅꜱ ᴏꜰ ꜱᴏᴍᴇ ᴜꜱᴇʀꜱ.

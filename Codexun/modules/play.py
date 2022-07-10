@@ -600,7 +600,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**✰ ʟᴜᴄᴋʏ ᴍᴜꜱɪᴄꜱ ɴᴏᴡ ᴘʟᴀʏɪɴɢ ✰**\n\n**❄️ ʀᴇQᴜᴇꜱᴛᴇᴅ ʙʏ :** **{}**\n**🍒 ᴘʟᴀʏɪɴɢ ᴀᴛ : [{}..](https://t.me/terayaarhoomai)**".format(
+            caption="**✰ ꜱᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ ✰({})**\n\n**❄️ ʀᴇQᴜᴇꜱᴛᴇᴅ ʙʏ :** **{}**\n**🍒 ᴘʟᴀʏɪɴɢ ᴀᴛ : [{}..](https://t.me/terayaarhoomai)**".format(
                 url, message.from_user.mention(), message.chat.title
             ),
         )

@@ -24,7 +24,7 @@ from Codexun.database.functions import start_restart_stage
 @app.on_message(command(["rebootmusic", "restart"]) & filters.user(OWNER_ID))
 @check_heroku
 async def gib_restart(client, message, hap):
-    msg_ = await message.reply_text(f"🔄 `- Restarting...`\n\nit will be take few seconds to start again, please wait...\n\n**Bot - {BOT_NAME}** 🤖")
+    msg_ = await message.reply_text(f"🍒 ʀᴇꜱᴛᴀʀᴛɪɴɢ..\n\nɪᴛ ᴡɪʟʟ ʙᴇ ᴛᴀᴋᴇ ꜰᴇᴡ ꜱᴇᴄᴏɴᴅꜱ ᴛᴏ ꜱᴛᴀʀᴛ ᴀɢᴀɪɴ, ᴘʟᴇᴀꜱᴇ ᴡᴀɪᴛ...\n\n**ʙᴏᴛ - {BOT_NAME}** 🍑")
     hap.restart()
 
 
@@ -46,11 +46,11 @@ async def edit_or_reply(msg: Message, **kwargs):
 async def update(_, message: Message):
     m = subprocess.check_output(["git", "pull"]).decode("UTF-8")
     if str(m[0]) != "A":
-        x = await message.reply_text("Found Update! updating...")
+        x = await message.reply_text("🍑 ꜰᴏᴜɴᴅ ᴜᴘᴅᴀᴛᴇ! ᴜᴘᴅᴀᴛɪɴɢ...")
         await start_restart_stage(x.chat.id, x.message_id)
         os.execvp("python3", ["python3", "-m", "Codexun"])
     else:
-        await message.reply_text("Bot is already in the **up-to-date** mode with **[latest version](https://github.com/PavanMagar/CodexunMusicBot)**", disable_web_page_preview=True)
+        await message.reply_text("ʙᴏᴛ ɪꜱ ᴀʟʀᴇᴀᴅʏ **ᴜᴘ ᴛᴏ ᴅᴀᴛᴇ** ᴍᴏᴅᴇ ᴡɪᴛʜ **[ʟᴀᴛᴇꜱᴛ ᴠᴇʀꜱɪᴏɴ](https://github.com/mrluckyxd/fortest)**", disable_web_page_preview=True)
         
 async def aexec(code, client, message):
     exec(
@@ -71,7 +71,7 @@ async def edit_or_reply(msg: Message, **kwargs):
 async def executor(client, message):
     if len(message.command) < 2:
         return await edit_or_reply(
-            message, text="__please give me some command to execute.__"
+            message, text="🍑 ᴘʟᴇᴀꜱᴇ ɢɪʙ ᴍᴇ ꜱᴏᴍᴇ ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴇxᴄᴜᴛᴇ"
         )
     try:
         cmd = message.text.split(" ", maxsplit=1)[1]
@@ -100,18 +100,18 @@ async def executor(client, message):
         evaluation = stdout
     else:
         evaluation = "Success"
-    final_output = f"**OUTPUT**:\n\n```{evaluation.strip()}```"
+    final_output = f"**ᴏᴜᴛᴘᴜᴛ**:\n\n```{evaluation.strip()}```"
     if len(final_output) > 4096:
         filename = "output.txt"
         with open(filename, "w+", encoding="utf8") as out_file:
             out_file.write(str(evaluation.strip()))
         t2 = time()
         keyboard = InlineKeyboardMarkup(
-            [[InlineKeyboardButton(text="⏳", callback_data=f"runtime {t2-t1} Seconds")]]
+            [[InlineKeyboardButton(text="🍒", callback_data=f"runtime {t2-t1} Seconds")]]
         )
         await message.reply_document(
             document=filename,
-            caption=f"**INPUT:**\n`{cmd[0:980]}`\n\n**OUTPUT:**\n`Attached Document`",
+            caption=f"**ɪɴᴘᴜᴛ:**\n`{cmd[0:980]}`\n\n**ᴏᴜᴛᴘᴜᴛ:**\n`ᴀᴛᴛᴀᴄʜᴇᴅ ᴅᴏᴄᴜᴍᴇɴᴛ`",
             quote=False,
             reply_markup=keyboard,
         )

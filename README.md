@@ -12,7 +12,7 @@
     <a href="https://github.com/mrluckyxd/stupid-musics"> <img src="https://img.shields.io/github/stars/mrluckyxd/stupid-musics?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
 </p>
 
-<p align="center"><a href="https://t.me/terayaarhoomai"><img src="https://telegra.ph/file/5a49680de5759f290ad8d.jpg"></a></p>
+<p align="center"><a href="https://t.me/terayaarhoomai"><img src="https://telegra.ph/file/6bd602911c6e87f58644d.jpg"></a></p>
 <p align="center">
 
 <p align="center">
@@ -33,43 +33,13 @@
 - [MongoDB](https://cloud.mongodb.com/)
 
 
-## Commands List
+## ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ
 
-#### For all in group
-- `/play <reply/url>` - Youtube url
-- `/play <reply audio>`- Song file to play song
-- `/play <song name>` - Play song you requested
-- `/song <song name>` - Download songs you want
-- `/search <query>` - Search videos on youtube with details
-- `@botusername <query>` - Get youtube url by inline
-
-#### Admins only
-- `/pause` - Pause song play
-- `/resume` - Resume song play
-- `/skip` - Play next song
-- `/end` - Stop music play
-- `/cleandb` - Clear all files
-- `/userbotjoin` - Add assistant
-- `/userbotleave` - Remove assistant
-
-#### Sudo & Owner only
-- `/restart` - Restart bot
-- `/gcast <text/reply>` - Broadcast to groups (auto pinned)
-- `/broadcast <text>` - Broadcast to groups (without pinned)
-- `/exec <code>` - Excute a code
-- `/userbotleaveall` - remove assistant of all groups
-
-###  GET STRING SESSION
-
- [![Run on Repl.it](https://camo.githubusercontent.com/05149b448485553c6f14f6430a45c12dcc79ed3c/68747470733a2f2f7265706c2e69742f62616467652f6769746875622f6a61727669733231303930342f4a6172766973)](https://replit.com/@TeamCodexun/Codexun-String?v=1)
-
-## Heroku Deployment
-
-##### Follow Given
-```sh
-First fork this repo
-Then copy your forked repo url
-Simply now replace it with the button given below
+##### ꜰᴏʟʟᴏᴡ ɢɪᴠᴇɴ
+```ꜱʜ
+ꜰɪʀꜱᴛ ꜰᴏʀᴋ ᴛʜɪꜱ ʀᴇᴘᴏ
+ᴛʜᴇɴ ᴄᴏᴘʏ ᴜʀ ꜰᴏʀᴋᴇᴅ ᴜʀʟ
+ꜱɪᴍᴘʟʏ ɴᴏᴡ ʀᴇᴘʟᴀᴄᴇ ɪᴛ ᴡɪᴛʜ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ
 If you didn't know how to do this
 Then simply contact us at support group.
 # suggesting to select Europe server for lag-free music.

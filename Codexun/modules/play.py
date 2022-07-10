@@ -600,7 +600,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**🍒 ꜱᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ 🍒({})**\n\n**❄️ ʀᴇQᴜᴇꜱᴛᴇᴅ ʙʏ :** **{}**".format(
+            caption="**[🍒 ꜱᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ 🍒]({})**\n\n**❄️ ʀᴇQᴜᴇꜱᴛᴇᴅ ʙʏ :** **{}**".format(
                 url, message.from_user.mention(), message.chat.title
             ),
         )

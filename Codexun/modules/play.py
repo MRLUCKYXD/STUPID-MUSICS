@@ -476,7 +476,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "• **Song not found**\n\nwrite name correctly."
+                "• **ᴡᴛꜰ ꜱᴏɴɢ ɴᴏᴛ ꜰᴏᴜɴᴅ ʙᴀʙʏ..✰**"
             )
             print(str(e))
             return
@@ -485,10 +485,10 @@ async def play(_, message: Message):
     [
         
        [
-            InlineKeyboardButton("⚙️ Manage", callback_data="cbmenu"),
-            InlineKeyboardButton("About 👨🏻‍💻", callback_data="nonabout"),
+            InlineKeyboardButton("✰ ᴄᴘᴀɴᴇʟ", callback_data="cbmenu"),
+            InlineKeyboardButton("ᴀʙᴏᴜᴛ ✰", callback_data="nonabout"),
         ],[
-            InlineKeyboardButton("Close 🗑️", callback_data="cls"),
+            InlineKeyboardButton("✰ ᴄʟᴏꜱᴇ ✰", callback_data="cls"),
         ],
         
     ]
@@ -496,7 +496,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"💡 Videos longer than {DURATION_LIMIT} minutes aren't allowed to play!"
+                f"✪ ᴠɪᴅᴇᴏ ʟᴏɴɢᴇʀʀ ᴛʜᴇɴ {DURATION_LIMIT} ᴍɪɴᴜᴛᴇꜱꜱ ᴀʀᴇ'ᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ!"
             )
             return
         requested_by = message.from_user.first_name
@@ -520,7 +520,7 @@ async def play(_, message: Message):
                     try:
                         if eta > 2:
                             lel.edit(
-                                f"**Downloading given song**"
+                                f"**ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴜʀʀ ꜱᴏɴɢ**"
                             )
                     except Exception as e:
                         pass
@@ -529,7 +529,7 @@ async def play(_, message: Message):
                         flex[str(bytesx)] += 1
                         if eta > 2:
                             lel.edit(
-                                f"**Downloading given song..**"
+                                f"**ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴜʀ ꜱᴏɴɢ..**"
                             )
                         print(
                             f"[{url_suffix}] Downloaded {percentage} at a speed of {speed} | ETA: {eta} seconds"
@@ -561,7 +561,7 @@ async def play(_, message: Message):
                     taken = "00:00"
                 size = d["_total_bytes_str"]
                 lel.edit(
-                    f"**Downloaded Successfully**\n\n**{title[:50]}...\n\n**FileSize: {size}**\n■■■■■■■■■■ `100%`\n**Time Taken: {taken} sec**\n\n<b>__FFmpeg processing...__</b>"
+                    f"ᴘʟᴀʏɪɴɢ ᴜʀ ꜱᴏɴɢ ʙᴀʙʏ..✰"
                 )
                 print(f"[{url_suffix}] Downloaded| Elapsed: {taken} seconds")
 
@@ -574,7 +574,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**[Get Additional Information 💡]({})**\n\n**⑆ User :** **{}**\n**⑆ Group : [{}..](https://t.me/codexun)**".format(
+            caption="**✰ ʟᴜᴄᴋʏ ᴍᴜꜱɪᴄꜱ ɴᴏᴡ ᴘʟᴀʏɪɴɢ ✰**\n\n**❄️ ʀᴇQᴜᴇꜱᴛᴇᴅ ʙʏ :** **{}**\n**🍒 ᴘʟᴀʏɪɴɢ ᴀᴛ : [{}..](https://t.me/terayaarhoomai)**".format(
                 url, message.from_user.mention(), message.chat.title
             ),
         )
@@ -591,7 +591,7 @@ async def play(_, message: Message):
             )
         except Exception:
             return await lel.edit(
-                "Error Joining Voice Chat. Make sure Voice Chat is Enabled.\n\n If YES, then make sure Music Bots Assistant is not banned in your group or available in your group!"
+                "» ᴇʀʀᴏʀ ᴊᴏɪɴɪɴɢ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ. ᴍᴀᴋᴇᴇ ꜱᴜʀᴇᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴇɴᴀʙʟᴇᴅ.\n\n ɪꜰ ʏᴇꜱ,ᴛʜᴇɴ ᴍᴜꜱɪᴄ ʙᴏᴛ ᴀꜱꜱɪꜱᴛᴀɴᴛ ɪꜱ ɴᴏᴛ ʙᴀɴɴᴇᴅ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ!"
             )
 
 
@@ -600,7 +600,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**[Get Additional Information 💡]({})**\n\n**⑆ User :** **{}**\n**⑆ Group : [{}..](https://t.me/codexun)**".format(
+            caption="**✰ ʟᴜᴄᴋʏ ᴍᴜꜱɪᴄꜱ ɴᴏᴡ ᴘʟᴀʏɪɴɢ ✰**\n\n**❄️ ʀᴇQᴜᴇꜱᴛᴇᴅ ʙʏ :** **{}**\n**🍒 ᴘʟᴀʏɪɴɢ ᴀᴛ : [{}..](https://t.me/terayaarhoomai)**".format(
                 url, message.from_user.mention(), message.chat.title
             ),
         )

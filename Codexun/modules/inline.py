@@ -27,8 +27,8 @@ async def inline(client: Client, query: InlineQuery):
         for result in search.result()["result"]:
             answers.append(
                 InlineQueryResultArticle(
-                    title=result["title"],
-                    description="{}, {} views.".format(
+                    🍒 ᴛɪᴛʟᴇ=result["title"],
+                    📎 ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ="{}, {} views.".format(
                         result["duration"], result["viewCount"]["short"]
                     ),
                     input_message_content=InputTextMessageContent(

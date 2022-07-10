@@ -297,7 +297,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"💡 ᴠɪᴅᴇᴏꜱ ʟᴏɴɢᴇʀʀ ᴛʜᴇɴ {DURATION_LIMIT} ᴍɪɴᴜᴛᴇꜱ ᴀʀᴇ'ᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ!"
+                f"❄️ ᴠɪᴅᴇᴏꜱ ʟᴏɴɢᴇʀʀ ᴛʜᴇɴ {DURATION_LIMIT} ᴍɪɴᴜᴛᴇꜱ ᴀʀᴇ'ᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ!"
             )
 
         file_name = get_file_name(audio)
@@ -353,10 +353,10 @@ async def play(_, message: Message):
     [
         
        [
-            InlineKeyboardButton("⚙️ Manage", callback_data="cbmenu"),
-            InlineKeyboardButton("About 👨🏻‍💻", callback_data="nonabout"),
+            InlineKeyboardButton("✰ ᴄᴘᴀɴᴇʟ", callback_data="cbmenu"),
+            InlineKeyboardButton("ᴀʙᴏᴜᴛ ✰", callback_data="nonabout"),
         ],[
-            InlineKeyboardButton("Close 🗑️", callback_data="cls"),
+            InlineKeyboardButton("✰ ᴄʟᴏꜱᴇ ✰", callback_data="cls"),
         ],
         
     ]
@@ -368,7 +368,7 @@ async def play(_, message: Message):
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="YouTube 🎬", url="https://youtube.com")]]
+                [[InlineKeyboardButton(text="✰ ʏᴏᴜᴛᴜʙᴇ ✰", url="https://youtube.com")]]
             )
 
         if (dur / 60) > DURATION_LIMIT:
@@ -397,7 +397,7 @@ async def play(_, message: Message):
                     try:
                         if eta > 2:
                             lel.edit(
-                                f"Downloading {title[:50]}\n\n**FileSize:** {size}\n**Downloaded:** {percentage}\n**Speed:** {speed}\n**ETA:** {eta} sec"
+                                f"ᴘʀᴏᴄᴄᴇꜱꜱɪɴɢ ᴘʟᴇᴀꜱᴇ ᴡᴀɪᴛ ʙᴀʙʏ..✰"
                             )
                     except Exception as e:
                         pass
@@ -406,7 +406,7 @@ async def play(_, message: Message):
                         flex[str(bytesx)] += 1
                         if eta > 2:
                             lel.edit(
-                                f"**Downloading** {title[:50]}..\n\n**FileSize:** {size}\n**Downloaded:** {percentage}\n**Speed:** {speed}\n**ETA:** {eta} sec"
+                                f"ᴘʀᴏᴄᴄᴇꜱꜱɪɴɢ ᴘʟᴇᴀꜱᴇ ᴡᴀɪᴛ ʙᴀʙʏ..✰"
                             )
                         print(
                             f"[{url_suffix}] Downloaded {percentage} at a speed of {speed} | ETA: {eta} seconds"
@@ -416,20 +416,20 @@ async def play(_, message: Message):
                         flex[str(bytesx)] += 1
                         if eta > 2:
                             lel.edit(
-                                f"**Downloading** {title[:50]}...\n\n**FileSize:** {size}\n**Downloaded:** {percentage}\n**Speed:** {speed}\n**ETA:** {eta} sec"
+                                f"ᴘʀᴏᴄᴄᴇꜱꜱɪɴɢ ᴘʟᴇᴀꜱᴇ ᴡᴀɪᴛ ʙᴀʙʏ..✰"
                             )
                         print(
-                            f"[{url_suffix}] Downloaded {percentage} at a speed of {speed} | ETA: {eta} seconds"
+                            f"ᴡᴀɪᴛ ᴀ ᴍᴏᴍᴇɴᴛ ʙᴀʙʏ..✰"
                         )
                 if per > 800:
                     if flex[str(bytesx)] == 4:
                         flex[str(bytesx)] += 1
                         if eta > 2:
                             lel.edit(
-                                f"**Downloading** {title[:50]}....\n\n**FileSize:** {size}\n**Downloaded:** {percentage}\n**Speed:** {speed}\n**ETA:** {eta} sec"
+                                f"ᴡᴀɪᴛ ᴀ ᴍᴏᴍᴇɴᴛ ʙᴀʙʏ..✰"
                             )
                         print(
-                            f"[{url_suffix}] Downloaded {percentage} at a speed of {speed} | ETA: {eta} seconds"
+                            f"ᴡᴀɪᴛ ᴀ ᴍᴏᴍᴇɴᴛ ʙᴀʙʏ..✰"
                         )
             if d["status"] == "finished":
                 try:
@@ -438,9 +438,9 @@ async def play(_, message: Message):
                     taken = "00:00"
                 size = d["_total_bytes_str"]
                 lel.edit(
-                    f"**Downloaded** {title[:50]}.....\n\n**FileSize:** {size}\n**Time Taken:** {taken} sec\n\n**Converting File**[__FFmpeg processing__]"
+                    f"ᴏᴋᴋ ʙᴀʙʏʏ ɴᴏᴡ ᴘʟᴀʏɪɴɢ..✰"
                 )
-                print(f"[{url_suffix}] Downloaded| Elapsed: {taken} seconds")
+                print(f"ɴᴏᴡ ᴘʟᴀʏɪɴɢ ᴜʀ ꜱᴏɴɢ ʙᴀʙʏ..✰")
 
         loop = asyncio.get_event_loop()
         x = await loop.run_in_executor(None, download, url, my_hook)
@@ -448,12 +448,12 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "**Don't be a crazy 🙅🏻 Give me a song name to play!\n\nExample \n/play hamanwa mere**"
+                "**ᴅᴏɴᴛ ʙᴇ ᴄʀᴀᴢʏ ✰ ɢɪᴠᴇ ᴍᴇ ᴀ ꜱᴏɴɢ ɴᴀᴍᴇ ᴛᴏ ᴘʟᴀʏ!\n\nꜰᴏʀ ᴇxᴀᴍᴘʟᴇ \n/play ᴛᴇʀɪ ɢᴀʟʟɪʏᴀ**"
             )
-        await lel.edit("**🔍 | Finding...**")
+        await lel.edit("**✰ | ꜰɪɴᴅɪɴɢ...**")
         query = message.text.split(None, 1)[1]
         # print(query)
-        await lel.edit("**⏳ | Downloading...**")
+        await lel.edit("**✰ | ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ...**")
         try:
             results = YoutubeSearch(query, max_results=5).to_dict()
             url = f"https://youtube.com{results[0]['url_suffix']}"

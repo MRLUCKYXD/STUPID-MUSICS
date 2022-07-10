@@ -529,7 +529,7 @@ async def cbabout(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbstgs"))
 async def cbstgs(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""**ᴀʙᴏᴜᴛ ᴍᴡɴᴜ ʙᴜᴛᴛᴏɴꜱ 🍒**
+        f"""**ᴀʙᴏᴜᴛ ᴍᴇɴᴜ ʙᴜᴛᴛᴏɴꜱ 🍒**
 
 ᴀꜰᴛᴇʀ ʏᴏᴜ ᴘʟᴀʏᴇᴅ ʏᴏᴜʀ ꜱᴏɴɢ ꜱᴏᴍᴇ ᴍᴇɴᴜ ʙᴜᴛᴛᴏɴꜱ ᴡɪʟʟ ᴄᴏᴍᴇꜱ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ᴍᴜꜱɪᴄ ᴘʟᴀʏɪɴɢ ᴏɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ. ᴛʜᴇʏ ᴀʀᴇ ᴀꜱ ꜰᴏʟʟᴏᴡꜱ :
 
@@ -601,12 +601,12 @@ async def cbtuto(_, query: CallbackQuery):
 
 ɪꜰ ᴜʜʜ ᴅɪᴅ'ᴛ ᴋɴᴏᴡ ʜᴏᴡᴡ ᴛᴏ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ ᴀᴛ @TeraYaarHooMai ᴀɴᴅ ɢᴇᴛ ʜᴇʟᴘ ꜰʀᴏᴍ ᴜꜱ.
 
-**🍒 ʀᴇᴘᴏ ʟɪɴᴋ : https://github.com/mrluckyxd/fortest**
+**🍒 ʀᴇᴘᴏ ʟɪɴᴋ : https://github.com/mrluckyxd/stupid-musics**
 
 **ᴛʜᴀɴᴋꜱ !""",
        reply_markup=InlineKeyboardMarkup(
             [[
-                    InlineKeyboardButton("🍑 ɢᴇᴛ ʀᴇᴘᴏ 🍑", url=f"https://github.com/PavanMagar/CodexunMusicBot")
+                    InlineKeyboardButton("🍑 ɢᴇᴛ ʀᴇᴘᴏ 🍑", url=f"https://github.com/mrluckyxd/stupid-musics")
                 ],
               [InlineKeyboardButton("🍒 ʙᴀᴄᴋ ʜᴏᴍᴇ 🍒", callback_data="cbabout")]]
         ),
@@ -615,28 +615,26 @@ async def cbtuto(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbhome"))
 async def cbhome(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""**Welcome [{query.message.chat.first_name}](tg://user?id={query.message.chat.id})** 👋
+        f"""**ʜᴇʏ ʙᴀʙʏ, 🖤
+   ᴛʜɪs ɪs [{BOT_NAME}](https://t.me/{BOT_USERNAME}) 🥀
+ ᴀ ᴩᴏᴡᴇʀғᴜʟ ᴍᴜsɪᴄ ᴩʟᴀʏᴇʀ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.
 
-This is the **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) bot,** a bot for playing high quality and unbreakable music in your groups voice chat.
-
-Just add me to your group & make as a admin with needed admin permissions to perform a right actions, now let's enjoy your music!
-
-Use the given buttons for more 📍""",
+ᴀʟʟ ᴏғ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴀʀᴇ ʟɪsᴛᴇᴅ ɪɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ.**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Commands", callback_data="cbcmnds"),
+                        "🍒 ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="cbcmnds"),
                     InlineKeyboardButton(
-                        "About", callback_data="cbabout")
+                        "ᴀʙᴏᴜᴛ 🍒", callback_data="cbabout")
                 ],
                 [
                     InlineKeyboardButton(
-                        "Basic Guide", callback_data="cbguide")
+                        "✘ ʙᴀꜱɪᴄ ɢᴜɪᴅᴇ ✘", callback_data="cbguide")
                 ],
                 [
                     InlineKeyboardButton(
-                        "✚ Add Bot in Your Group ✚", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "🥺 ᴋɪᴅɴᴀᴘ ᴍᴇ ʙᴀʙᴜ 🥺", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ]
                 
            ]

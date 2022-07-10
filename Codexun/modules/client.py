@@ -85,7 +85,7 @@ def others_markup(videoid, user_id):
             InlineKeyboardButton(text="‣‣I", callback_data=f"skipvc"),
             InlineKeyboardButton(text="▢", callback_data=f"stopvc"),
         ],[
-            InlineKeyboardButton(text="Manage", callback_data=f"cls"),
+            InlineKeyboardButton(text="✰ ᴍᴀɴᴀɢᴇ ✰", callback_data=f"cls"),
         ],
         
     ]
@@ -96,20 +96,20 @@ fifth_keyboard = InlineKeyboardMarkup(
     [
         [
             
-            InlineKeyboardButton("20%", callback_data="first"),
-            InlineKeyboardButton("50%", callback_data="second"),
+            InlineKeyboardButton("➋0", callback_data="first"),
+            InlineKeyboardButton("❺0%", callback_data="second"),
             
         ],[
             
-            InlineKeyboardButton("100%", callback_data="third"),
-            InlineKeyboardButton("150%", callback_data="fourth"),
+            InlineKeyboardButton("➓0%", callback_data="third"),
+            InlineKeyboardButton("➊❺0%", callback_data="fourth"),
             
         ],[
             
-            InlineKeyboardButton("200% 🔊", callback_data="fifth"),
+            InlineKeyboardButton("➋00% ♡", callback_data="fifth"),
             
         ],[
-            InlineKeyboardButton(text="⬅️ Back", callback_data=f"cbmenu"),
+            InlineKeyboardButton(text="◁ ɢᴏ ʙᴀᴄᴋ ▷", callback_data=f"cbmenu"),
         ],
     ]
 )
@@ -124,14 +124,14 @@ fourth_keyboard = InlineKeyboardMarkup(
         ],[
             
             InlineKeyboardButton("100%", callback_data="third"),
-            InlineKeyboardButton("150% 🔊", callback_data="fourth"),
+            InlineKeyboardButton("150% ♡", callback_data="fourth"),
             
         ],[
             
             InlineKeyboardButton("200%", callback_data="fifth"),
             
         ],[
-            InlineKeyboardButton(text="⬅️ Back", callback_data=f"cbmenu"),
+            InlineKeyboardButton(text="◁ ɢᴏ ʙᴀᴄᴋ ▷", callback_data=f"cbmenu"),
         ],
     ]
 )
@@ -145,7 +145,7 @@ third_keyboard = InlineKeyboardMarkup(
             
         ],[
             
-            InlineKeyboardButton("100% 🔊", callback_data="third"),
+            InlineKeyboardButton("100% ♡", callback_data="third"),
             InlineKeyboardButton("150%", callback_data="fourth"),
             
         ],[
@@ -153,7 +153,7 @@ third_keyboard = InlineKeyboardMarkup(
             InlineKeyboardButton("200%", callback_data="fifth"),
             
         ],[
-            InlineKeyboardButton(text="⬅️ Back", callback_data=f"cbmenu"),
+            InlineKeyboardButton(text="◁ ɢᴏ ʙᴀᴄᴋ ▷", callback_data=f"cbmenu"),
         ],
     ]
 )
@@ -163,7 +163,7 @@ second_keyboard = InlineKeyboardMarkup(
         [
             
             InlineKeyboardButton("20%", callback_data="first"),
-            InlineKeyboardButton("50% 🔊", callback_data="second"),
+            InlineKeyboardButton("50% ♡", callback_data="second"),
             
         ],[
             
@@ -175,7 +175,7 @@ second_keyboard = InlineKeyboardMarkup(
             InlineKeyboardButton("200%", callback_data="fifth"),
             
         ],[
-            InlineKeyboardButton(text="⬅️ Back", callback_data=f"cbmenu"),
+            InlineKeyboardButton(text="◁ ɢᴏ ʙᴀᴄᴋ ▷", callback_data=f"cbmenu"),
         ],
     ]
 )
@@ -184,7 +184,7 @@ first_keyboard = InlineKeyboardMarkup(
     [
         [
             
-            InlineKeyboardButton("20% 🔊", callback_data="first"),
+            InlineKeyboardButton("20% ♡", callback_data="first"),
             InlineKeyboardButton("50%", callback_data="second"),
             
         ],[
@@ -197,7 +197,7 @@ first_keyboard = InlineKeyboardMarkup(
             InlineKeyboardButton("200%", callback_data="fifth"),
             
         ],[
-            InlineKeyboardButton(text="⬅️ Back", callback_data=f"cbmenu"),
+            InlineKeyboardButton(text="◁ ɢᴏ ʙᴀᴄᴋ ▷", callback_data=f"cbmenu"),
         ],
     ]
 )
@@ -205,14 +205,14 @@ highquality_keyboard = InlineKeyboardMarkup(
     [
         [
             
-            InlineKeyboardButton("Low Quality", callback_data="low"),],
-         [   InlineKeyboardButton("Medium Quality", callback_data="medium"),
+            InlineKeyboardButton("ʟᴏᴡ Qᴜᴀʟɪᴛʏ", callback_data="low"),],
+         [   InlineKeyboardButton("ᴍᴇᴅɪᴜᴍ Qᴜᴀʟɪᴛʏ", callback_data="medium"),
             
-        ],[   InlineKeyboardButton("High Quality ✅", callback_data="high"),
+        ],[   InlineKeyboardButton("ʜɪɢʜ Qᴜᴀʟɪᴛʏ", callback_data="high"),
             
         ],[
-            InlineKeyboardButton(text="⬅️ Back", callback_data=f"cbmenu"),
-            InlineKeyboardButton(text="Close 🗑️", callback_data=f"cls"),
+            InlineKeyboardButton(text="◁ ʙᴀᴄᴋ", callback_data=f"cbmenu"),
+            InlineKeyboardButton(text="ᴄʟᴏꜱᴇ ☪", callback_data=f"cls"),
         ],
     ]
 )
@@ -220,14 +220,14 @@ lowquality_keyboard = InlineKeyboardMarkup(
     [
         [
             
-            InlineKeyboardButton("Low Quality ✅", callback_data="low"),],
-         [   InlineKeyboardButton("Medium Quality", callback_data="medium"),
+            InlineKeyboardButton("ʟᴏᴡ Qᴜᴀʟɪᴛʏ ◉", callback_data="low"),],
+         [   InlineKeyboardButton("ᴍᴇᴅɪᴜᴍ Qᴜᴀʟɪᴛʏ", callback_data="medium"),
             
-        ],[   InlineKeyboardButton("High Quality", callback_data="high"),
+        ],[   InlineKeyboardButton("ʜɪɢʜ Qᴜᴀʟɪᴛʏ", callback_data="high"),
             
         ],[
-            InlineKeyboardButton(text="⬅️ Back", callback_data=f"cbmenu"),
-            InlineKeyboardButton(text="Close 🗑️", callback_data=f"cls"),
+            InlineKeyboardButton(text="◁ ʙᴀᴄᴋ", callback_data=f"cbmenu"),
+            InlineKeyboardButton(text="ᴄʟᴏꜱᴇ ☪", callback_data=f"cls"),
         ],
     ]
 )
@@ -235,14 +235,14 @@ mediumquality_keyboard = InlineKeyboardMarkup(
     [
         [
             
-            InlineKeyboardButton("Low Quality", callback_data="low"),],
-         [   InlineKeyboardButton("Medium Quality ✅", callback_data="medium"),
+            InlineKeyboardButton("ʟᴏᴡ Qᴜᴀʟɪᴛʏ", callback_data="low"),],
+         [   InlineKeyboardButton("ᴍᴇᴅɪᴜᴍ Qᴜᴀʟɪᴛʏ ◉", callback_data="medium"),
             
-        ],[   InlineKeyboardButton("High Quality", callback_data="high"),
+        ],[   InlineKeyboardButton("ʜɪɢʜ Qᴜᴀʟɪᴛʏ", callback_data="high"),
             
         ],[
-            InlineKeyboardButton(text="⬅️ Back", callback_data=f"cbmenu"),
-            InlineKeyboardButton(text="Close 🗑️", callback_data=f"cls"),
+            InlineKeyboardButton(text="◁ ʙᴀᴄᴋ", callback_data=f"cbmenu"),
+            InlineKeyboardButton(text="ᴄʟᴏꜱᴇ ☪", callback_data=f"cls"),
         ],
     ]
 )
@@ -251,11 +251,11 @@ dbclean_keyboard = InlineKeyboardMarkup(
     [
         [
             
-            InlineKeyboardButton("Yes, Proceed !", callback_data="cleandb"),],
-        [    InlineKeyboardButton("Nope, Cancel !", callback_data="cbmenu"),
+            InlineKeyboardButton("ʏᴇꜱ, ᴘʀᴏᴄᴇᴇᴅ !", callback_data="cleandb"),],
+        [    InlineKeyboardButton("ɴᴏᴘᴇ, ᴄᴀɴᴄᴇʟ !", callback_data="cbmenu"),
             
         ],[
-            InlineKeyboardButton(text="⬅️ Back", callback_data=f"cbmenu"),
+            InlineKeyboardButton(text="◁ ɢᴏ ʙᴀᴄᴋ ▷", callback_data=f"cbmenu"),
         ],
     ]
 )
@@ -269,13 +269,13 @@ menu_keyboard = InlineKeyboardMarkup(
             InlineKeyboardButton("▢", callback_data="stopvc"),
             
         ],[
-            InlineKeyboardButton(text="Volume", callback_data=f"fifth"),
-             InlineKeyboardButton(text="Quality", callback_data=f"high"),
+            InlineKeyboardButton(text="🍑 ᴠᴏʟᴜᴍᴇ", callback_data=f"fifth"),
+             InlineKeyboardButton(text="Qᴜᴀʟɪᴛʏ 🍑", callback_data=f"high"),
         ],[
-            InlineKeyboardButton(text="CleanDB", callback_data=f"dbconfirm"),
-             InlineKeyboardButton(text="About", callback_data=f"nonabout"),
+            InlineKeyboardButton(text="🍹 ᴄʟᴇᴀɴ ᴅʙ", callback_data=f"dbconfirm"),
+             InlineKeyboardButton(text="ᴀʙᴏᴜᴛ 🍹", callback_data=f"nonabout"),
         ],[
-             InlineKeyboardButton(text="🗑️ Close Menu", callback_data=f"cls"),
+             InlineKeyboardButton(text="🍑 ᴄʟᴏꜱᴇ ᴍᴇɴᴜ 🍑", callback_data=f"cls"),
         ],
     ]
 )
@@ -289,7 +289,7 @@ async def skipvc(_, CallbackQuery):
     if not a.can_manage_voice_chats:
         return await CallbackQuery.answer(
             """
-Only admin with manage voice chat permission can do this.
+ᴏɴʟʏ ᴀᴅᴍɪɴ ᴡɪᴛʜ ᴍᴀɴᴀɢᴇᴇ ᴠᴏɪᴄᴇᴇ ᴄʜᴀᴛ ᴘᴇʀᴍɪꜱꜱɪᴏɴ ᴄᴀɴ ᴅᴏ ᴛʜɪꜱ.
 """,
             show_alert=True,
         )
@@ -304,14 +304,14 @@ Only admin with manage voice chat permission can do this.
             await CallbackQuery.answer()
             await CallbackQuery.message.reply(
                 f"""
-**Skip Button Used By** {rpk}
-• No more songs in Queue
-`Leaving Voice Chat..`
+**ꜱᴋɪᴘ ʙᴜᴛᴛᴏɴ ᴜꜱᴇᴅ ʙʏ** {rpk}
+• ɴᴏ ᴍᴏʀᴇ ꜱᴏɴɢꜱ ɪɴ Qᴜᴇᴜᴇ
+`ʟᴇᴀᴠɪɴɢ ᴠᴄ ʙʏᴇ ʙʏᴇ..`
 """
             )
             await calls.pytgcalls.leave_group_call(chat_id)
             return
-            await CallbackQuery.answer("Voice Chat Skip.!", show_alert=True)     
+            await CallbackQuery.answer("ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ꜱᴋɪᴘ.!", show_alert=True)     
 
 @Client.on_callback_query(filters.regex("pausevc"))
 async def pausevc(_, CallbackQuery):
@@ -320,7 +320,7 @@ async def pausevc(_, CallbackQuery):
     )
     if not a.can_manage_voice_chats:
         return await CallbackQuery.answer(
-            "Only admin with manage voice chat permission can do this.",
+            "ᴏɴʟʏ ᴀᴅᴍɪɴ ᴡɪᴛʜ ᴍᴀɴᴀɢᴇ ᴠᴄ ʀɪɢʜᴛꜱ ᴄᴀɴ ᴅᴏ ᴛʜɪꜱ.",
             show_alert=True,
         )
     CallbackQuery.from_user.first_name
@@ -329,13 +329,13 @@ async def pausevc(_, CallbackQuery):
         if await is_music_playing(chat_id):
             await music_off(chat_id)
             await calls.pytgcalls.pause_stream(chat_id)
-            await CallbackQuery.answer("Music Paused Successfully.", show_alert=True)
+            await CallbackQuery.answer("ᴍᴜꜱɪᴄ ᴘᴀᴜꜱᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ.", show_alert=True)
             
         else:
-            await CallbackQuery.answer(f"Nothing is playing on voice chat!", show_alert=True)
+            await CallbackQuery.answer(f"ɴᴏᴛʜɪɴɢ ɪꜱ ᴘʟᴀʏɪɴɢ ᴏɴ ᴠᴄ ʙᴀʙʏ!", show_alert=True)
             return
     else:
-        await CallbackQuery.answer(f"Nothing is playing in on voice chat!", show_alert=True)
+        await CallbackQuery.answer(f"ɴᴏᴛʜɪɴɢ ɪꜱ ᴘʟᴀʏɪɴɢ ᴏɴ ᴠᴄ ʙᴀʙʏ!", show_alert=True)
 
 
 @Client.on_callback_query(filters.regex("resumevc"))
@@ -346,7 +346,7 @@ async def resumevc(_, CallbackQuery):
     if not a.can_manage_voice_chats:
         return await CallbackQuery.answer(
             """
-Only admin with manage voice chat permission can do this.
+ᴏɴʟʏ ᴀᴅᴍɪɴ ᴡɪᴛʜ ᴍᴀɴᴀɢᴇ ᴠᴄ ʀɪɢʜᴛ ᴄᴀɴ ᴅᴏ ᴛʜɪꜱ.
 """,
             show_alert=True,
         )
@@ -362,10 +362,10 @@ Only admin with manage voice chat permission can do this.
         else:
             await music_on(chat_id)
             await calls.pytgcalls.resume_stream(chat_id)
-            await CallbackQuery.answer("Music resumed successfully.", show_alert=True)
+            await CallbackQuery.answer("ᴍᴜꜱɪᴄ ʀᴇꜱᴜᴍᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ.", show_alert=True)
             
     else:
-        await CallbackQuery.answer(f"Nothing is playing.", show_alert=True)
+        await CallbackQuery.answer(f"ɴᴏᴛʜɪɴɢ ɪꜱ ᴘʟᴀʏɪɴɢ.", show_alert=True)
 
 
 @Client.on_callback_query(filters.regex("stopvc"))
@@ -375,7 +375,7 @@ async def stopvc(_, CallbackQuery):
     )
     if not a.can_manage_voice_chats:
         return await CallbackQuery.answer(
-            "Only admin with manage voice chat permission can do this.",
+            "ᴏɴʟʏ ᴀᴅᴍɪɴ ᴡɪᴛʜ ᴍᴀɴᴀɢᴇ ᴠᴄ ʀɪɢʜᴛ ᴄᴀɴ ᴅᴏ ᴛʜɪꜱ.",
             show_alert=True,
         )
     CallbackQuery.from_user.first_name
@@ -387,13 +387,13 @@ async def stopvc(_, CallbackQuery):
         except Exception:
             pass
         await remove_active_chat(chat_id)
-        await CallbackQuery.answer("Music stream ended.", show_alert=True)
+        await CallbackQuery.answer("ᴍᴜꜱɪᴄ ꜱᴛʀᴇᴀᴍ ᴇɴᴅᴇᴅ.", show_alert=True)
         user_id = CallbackQuery.from_user.id
         user_name = CallbackQuery.from_user.first_name
         rpk = "[" + user_name + "](tg://user?id=" + str(user_id) + ")"
-        await CallbackQuery.message.reply(f"**• Music successfully stopped by {rpk}.**")
+        await CallbackQuery.message.reply(f"**• ᴍᴜꜱɪᴄ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ꜱᴛᴏᴘᴇᴅ ʙʏ {rpk}.**")
     else:
-        await CallbackQuery.answer(f"Nothing is playing on voice chat.", show_alert=True)
+        await CallbackQuery.answer(f"ɴᴏᴛʜɪɴɢ ɪꜱꜱ ᴘʟᴀʏɪɴɢ ᴏɴ ᴠᴄ.", show_alert=True)
 
 @Client.on_callback_query(filters.regex("cleandb"))
 async def cleandb(_, CallbackQuery):
@@ -402,7 +402,7 @@ async def cleandb(_, CallbackQuery):
     )
     if not a.can_manage_voice_chats:
         return await CallbackQuery.answer(
-            "Only admin with manage voice chat permission can do this.",
+            "ᴏɴʟʏ ᴀᴅᴍɪɴ ᴡɪᴛʜ ᴍᴀɴᴀɢᴇᴇ ᴠᴄ ʀɪɢʜᴛ ᴄᴀᴀɴ ᴅᴏ ᴛʜɪꜱ.",
             show_alert=True,
         )
     CallbackQuery.from_user.first_name
@@ -414,114 +414,114 @@ async def cleandb(_, CallbackQuery):
         except Exception:
             pass
         await remove_active_chat(chat_id)
-        await CallbackQuery.answer("Db cleaned successfully!", show_alert=True)
+        await CallbackQuery.answer("ᴅʙ ᴄʟᴇᴀɴᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ!", show_alert=True)
         user_id = CallbackQuery.from_user.id
         user_name = CallbackQuery.from_user.first_name
         rpk = "[" + user_name + "](tg://user?id=" + str(user_id) + ")"
         await CallbackQuery.edit_message_text(
-        f"✅ __Erased queues successfully__\n│\n╰ Database cleaned by {rpk}",
+        f"✅ __Erased queues successfully__\n│\n╰ ᴅᴀᴛᴀʙᴀꜱᴇ ᴄʟᴇᴀɴᴇᴅ ʙʏ {rpk}",
         reply_markup=InlineKeyboardMarkup(
             [
-            [InlineKeyboardButton("Close 🗑️", callback_data="cls")]])
+            [InlineKeyboardButton("🍑 ᴄʟᴏꜱᴇ 🍑", callback_data="cls")]])
         
     )
     else:
-        await CallbackQuery.answer(f"Nothing is playing on voice chat.", show_alert=True)
+        await CallbackQuery.answer(f"ɴᴏᴛʜɪɴɢ ɪꜱ ᴘʟᴀʏɪɴɢ ᴏɴ ᴠᴄ ʙᴀʙʏ.", show_alert=True)
 
 
 @Client.on_callback_query(filters.regex("cbcmnds"))
 async def cbcmnds(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""**{BOT_NAME} Bot Commands 💡**
+        f"""**{BOT_NAME} ᴄᴏᴍᴍᴀɴᴅꜱ 🍒**
 
 • /play (song name) 
-- For playing music
+- ꜰᴏʀ ᴘʟᴀʏɪɴɢ ᴍᴜꜱɪᴄ
 
 • /pause 
-- For pausing music
+- ꜰᴏʀ ᴘᴀᴜꜱɪɴɢ ᴍᴜꜱɪᴄ
 
 • /resume 
-- For resuming music
+- ꜰᴏʀʀ ʀᴇꜱᴜᴍɪɴɢ ᴍᴜꜱɪᴄ
 
 • /skip 
-- For skipping current song
+- ꜰᴏʀʀ ꜱᴋɪᴘᴘɪɴɢ ᴄᴜʀʀᴇɴᴛ ꜱᴏɴɢ
 
 • /search (song name) 
-- For searching music
+- ꜰᴏʀ ꜱᴇᴀʀᴄʜɪɴɢ ᴍᴜꜱɪᴄ
 
 • /song 
-- For download music
+- ꜰᴏʀ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴜꜱɪᴄ
 
-Powered by **@{UPDATE}** !""",
+ᴘᴏᴡᴇʀᴇ ʙʏ **@{UPDATE}** !""",
         reply_markup=InlineKeyboardMarkup(
             [
               [
                     InlineKeyboardButton(
-                        "Menu", callback_data="cbstgs"),
+                        "🍒 ᴍᴇɴᴜ", callback_data="cbstgs"),
                     InlineKeyboardButton(
-                        "Sudo/Owner", callback_data="cbowncmnds")
+                        "ꜱᴜᴅᴏ 🍒", callback_data="cbowncmnds")
                 ],
-              [InlineKeyboardButton("🔙  Back Home", callback_data="cbhome")]]
+              [InlineKeyboardButton("🍑 ʙᴀᴄᴋ ʜᴏᴍᴇ 🍑", callback_data="cbhome")]]
         ),
     )
 @Client.on_callback_query(filters.regex("cbowncmnds"))
 async def cbowncmnds(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""**Owner & Sudo Commands 💡**
+        f"""**🍒 ꜱᴜᴅᴏ ᴄᴏᴍᴍᴀɴᴅꜱ 🍒**
 
 • /broadcast (massage)
-- Broadcast msg through bot
+- ʙʀᴏᴀᴅᴄᴀꜱᴛ ᴍꜱɢ ʙʏ ᴛʜᴇ ʙᴏᴛ
 
 • /gcast (massage) 
-- Broadcast msg with pin
+- ʙʀᴏᴀᴅᴄᴀꜱᴛ ᴍꜱɢ ᴡɪᴛʜ ᴘɪɴ
 
 • /restart 
-- Restart bot from server
+- ʀᴇꜱᴛᴀʀᴛ ʙᴏᴛ ꜰʀᴏᴍ ꜱᴇʀᴠᴇʀ
 
 • /exec
-- Execute any code
+- ᴇxᴇᴄᴜᴛᴇ ᴀɴʏ ᴄᴍᴅ
 
 • /stats
-- Get all statistics
+- ɢᴇᴛ ʙᴏᴛ ꜱᴛᴀᴛꜱ
 
 • /ping 
-- Pinging uptime
+- ᴘɪɴɢɪɴɢ ᴜᴘᴛɪᴍᴇ
 
 • /update
-- Update bot with latest version
+- ᴜᴘᴅᴀᴛᴇ ʙᴏᴛ ᴡɪᴛʜ ʟᴀᴛᴇꜱᴛ ᴠᴇʀꜱɪᴏɴ
 
-• /gban or /ungban
-- Global Ban system
+• /gban ᴏʀ /ungban
+- ɢʟᴏʙᴀʟ ʙᴀɴ ꜱʏꜱᴛᴇᴍ
 
 • /leaveall 
-- leaving assistant from all chats
+- ʟᴇᴀᴠɪɴɢ ᴀꜱꜱɪꜱᴛᴀɴᴛ ꜰʀᴏᴍ ᴀʟʟ ᴄʜᴀᴛꜱ
 
-Powered by **@{UPDATE}** !""",
+Pᴘᴏᴡᴇʀᴇᴅ ʙʏ **@{UPDATE}** !""",
         reply_markup=InlineKeyboardMarkup(
             [
               
-              [InlineKeyboardButton("🔙  Back Home", callback_data="cbcmnds")]]
+              [InlineKeyboardButton("🍎 ʙᴀᴄᴋ ʜᴏᴍᴇ 🍎", callback_data="cbcmnds")]]
         ),
     )
 
 @Client.on_callback_query(filters.regex("cbabout"))
 async def cbabout(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""**About {BOT_NAME} Bot 💡**
+        f"""**ᴀʙᴏᴜᴛ {BOT_NAME} ʙᴏᴛ 🍒**
 
-**[{BOT_NAME}](https://t.me/{BOT_USERNAME})** Music Bot is the bot designed by **@{UPDATE}** for playing a high quality and unbreakable music in your groups voice chat.
+**[{BOT_NAME}](https://t.me/{BOT_USERNAME})** ɪꜱ ᴛʜᴇ ʙᴏᴛ ᴅᴇꜱɪɢɴᴇᴅ ʙʏ **@{UPDATE}** ꜰᴏʀ ᴘʟᴀʏɪɴɢ ʜɪɢʜ Qᴜᴀʟɪᴛʏ ᴀɴᴅ ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ᴍᴜꜱɪᴄ ɪɴ ᴜʀ ɢʀᴏᴜᴘꜱ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ.
 
-This bot helps you to play music, to search music from youtube and to download music from youtube server and many more features related to telegram voice chat feature.
+ᴛʜɪꜱ ʙᴏᴛ ʜᴇʟᴘꜱ ʏᴏᴜ ᴛᴏ ᴘʟᴀʏ ᴍᴜꜱɪᴄ, ᴛᴏ ꜱᴇᴀʀᴄʜ ᴍᴜꜱɪᴄ ꜰʀᴏᴍ ʏᴏᴜᴛᴜʙᴇ ᴀɴᴅ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴜꜱɪᴄ ꜰʀᴏᴍ ʏᴏᴜᴛᴜʙᴇ ꜱᴇʀᴠᴇʀ ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ ꜰᴇᴀᴛᴜʀᴇꜱ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴠᴏɪᴄᴇᴇ ᴄʜᴀᴛ ꜰᴇᴀᴛᴜʀᴇ.
 
-**Assistant :- @{ASSUSERNAME}**""",
+**ᴀꜱꜱɪꜱᴛᴀɴᴛ :- @{ASSUSERNAME}**""",
         reply_markup=InlineKeyboardMarkup(
             [
               [
-                    InlineKeyboardButton("Support 🚶", url=f"https://t.me/{SUPPORT}"),
-                    InlineKeyboardButton("Updates 🤖", url=f"https://t.me/{UPDATE}")
+                    InlineKeyboardButton("🍒 ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT}"),
+                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ 🍒", url=f"https://t.me/{UPDATE}")
                 ],
-            [InlineKeyboardButton("Make Your Own Bot", callback_data="cbtuto")],
-            [InlineKeyboardButton("🔙  Back Home", callback_data="cbhome")]]
+            [InlineKeyboardButton("🍑 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", callback_data="cbtuto")],
+            [InlineKeyboardButton("ʙᴀᴄᴋ ʜᴏᴍᴇ 🍑", callback_data="cbhome")]]
         ),
     )
 
@@ -529,25 +529,25 @@ This bot helps you to play music, to search music from youtube and to download m
 @Client.on_callback_query(filters.regex("cbstgs"))
 async def cbstgs(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""**About Menu Buttons 💡**
+        f"""**ᴀʙᴏᴜᴛ ᴍᴡɴᴜ ʙᴜᴛᴛᴏɴꜱ 🍒**
 
-After you played your song some menu buttons will be comes to manage your music playing on voice chat. They are as follows :
+ᴀꜰᴛᴇʀ ʏᴏᴜ ᴘʟᴀʏᴇᴅ ʏᴏᴜʀ ꜱᴏɴɢ ꜱᴏᴍᴇ ᴍᴇɴᴜ ʙᴜᴛᴛᴏɴꜱ ᴡɪʟʟ ᴄᴏᴍᴇꜱ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ᴍᴜꜱɪᴄ ᴘʟᴀʏɪɴɢ ᴏɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ. ᴛʜᴇʏ ᴀʀᴇ ᴀꜱ ꜰᴏʟʟᴏᴡꜱ :
 
 • ▷ 
-- Resume Music
+- ʀᴇꜱᴜᴍᴇ ᴍᴜꜱɪᴄ
 • II 
-- Pause Music
+- ᴘᴀᴜꜱᴇ ᴍᴜꜱɪᴄ
 • ▢  
-- End Music
+- ᴇɴᴅ ᴍᴜꜱɪᴄ
 • ‣‣ 
-- Skip Music
+- ꜱᴋɪᴘ ᴍᴜꜱɪᴄ
 
-You can also open this menu through /menu and /settings command.
+ʏᴏᴜ ᴄᴀɴ ᴀʟꜱᴏ ᴛʜɪꜱ ᴍᴇɴᴜ ᴛʜʀᴏᴜɢʜ /menu ᴀɴᴅ /settings ᴄᴏᴍᴍᴀɴᴅ.
 
-**Only admins can use this buttons 📍**""",
+**ᴏɴʟʏ ᴀᴅᴍɪɴ ᴄᴀɴ ᴜꜱᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ**""",
         reply_markup=InlineKeyboardMarkup(
             [
-            [InlineKeyboardButton("🔙  Back Home", callback_data="cbcmnds")]]
+            [InlineKeyboardButton("🍒 ʙᴀᴄᴋ ʜᴏᴍᴇ 🍒", callback_data="cbcmnds")]]
         ),
     )
 
@@ -555,23 +555,23 @@ You can also open this menu through /menu and /settings command.
 @Client.on_callback_query(filters.regex("cbguide"))
 async def cbguide(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""**Read Basic Guide Carefully 💡**
+        f"""**ʀᴇᴀᴅ ʙᴀꜱɪᴄ ɢᴜɪᴅᴇ ᴄᴀʀᴇꜰᴜʟʟʏ**
 
-• First add this bot in your group
+• ꜰɪʀꜱᴛ ᴀᴅᴅ ᴛʜɪꜱ ʙᴏᴛ ɪɴ ᴜʀ ɢʀᴘ
 
-• Make a bot admin
+• ᴍᴀᴋᴇ ᴀ ʙᴏᴛ ᴀᴅᴍɪɴ
 
-• Give needed admin permission
+• ɢɪᴠᴇᴇ ɴᴇᴇᴅᴇᴅ ᴀᴅᴍɪɴ ᴘᴇʀᴍɪꜱꜱɪᴏɴ
 
-• Type /reload in your group
+• ᴛʏᴘᴇ /reload ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ
 
-• Start your groups voice chat
+• ꜱᴛᴀʀᴛ ʏᴏᴜʀʀ ɢʀᴏᴜᴘꜱ ᴠᴏɪᴄᴇᴇ ᴄʜᴀᴛ
 
-• Now play your song and enjoy !""",
+• ɴᴏᴡ ᴘʟᴀʏɪɴɢ ᴜʀʀ ꜱᴏɴɢ ᴀɴᴅᴅ ᴇɴᴊᴏʏ !""",
         reply_markup=InlineKeyboardMarkup(
             [[
-              InlineKeyboardButton("Common Error", callback_data="cberror")],
-              [InlineKeyboardButton("🔙  Back Home", callback_data="cbhome")]]
+              InlineKeyboardButton("ᴄᴏᴍᴍᴜɴ ᴇʀʀᴏʀ", callback_data="cberror")],
+              [InlineKeyboardButton("ʙᴀᴄᴋ ʜᴏᴍᴇ", callback_data="cbhome")]]
         ),
     )
 
@@ -579,15 +579,15 @@ async def cbguide(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cberror"))
 async def cberror(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""**Mostly Faced Errors 💡**
+        f"""**ᴍᴏꜱᴛʟʏ ꜰᴀᴄᴇᴅ ᴇʀʀᴏʀꜱ 🍒**
 
-mostly, there wiil be the main error about to music assistant. If you are facing any type of error in your group then that time first make sure @{ASSUSERNAME} is available in your group. If not then add it manually and before that make sure also it is not banned in ur chat.\n\n**Assistant :- @{ASSUSERNAME}**\n\n**Thanks !**""",
+ᴍᴏꜱᴛʟʏ, ᴛʜᴇʀᴇ ᴡɪʟʟ ʙᴇᴇ ᴛʜᴇ ᴍᴀɪɴ ᴇʀʀᴏʀ ᴀʙᴏᴜᴛ ᴛᴏ ᴍᴜꜱɪᴄ ᴀꜱꜱɪꜱᴛᴀɴᴛ. ɪꜰ ʏᴏᴜ ᴀʀᴇ ꜰᴀᴄɪɴɢ ᴀɴʏ ᴛʏᴘᴇ ᴏꜰ ᴇʀʀᴏʀ ɪɴ ᴜʀ ɢʀᴘ ᴛʜᴇɴ ᴛʜᴀᴛ ᴛɪᴍᴇ ꜰɪʀꜱᴛ ᴛɪᴍᴇᴇ ᴍᴀᴋᴇᴇ ꜱᴜʀᴇ @{ASSUSERNAME} ɪꜱ ᴀᴡᴀɪʟᴀʙʟᴇ ɪɴ ᴜʀʀ ɢʀᴘ. ɪꜰ ɴᴏᴛ ᴛʜᴇɴ ᴀᴅᴅ ɪᴛ ᴀɴᴅ ʙᴇꜰᴏʀᴇ ᴛʜᴀᴛ ᴍᴀᴋᴇ ꜱᴜʀᴇᴇ ᴀʟꜱᴏ ɪᴛ ɪꜱꜱ ɴᴏᴛ ʙᴀɴɴᴇᴅᴅ ɪɴ ᴜʀ ᴄʜᴀᴛ.\n\n**Aꜱꜱɪꜱᴛᴀɴᴛ :- @{ASSUSERNAME}**\n\n**ᴛʜᴀɴᴋꜱ !**""",
         reply_markup=InlineKeyboardMarkup(
             [
             [
-                    InlineKeyboardButton("Assistant 🙋🏻‍♂️", url=f"https://t.me/{ASSUSERNAME}")
+                    InlineKeyboardButton("ᴀꜱꜱɪꜱᴛᴀɴᴛ", url=f"https://t.me/{ASSUSERNAME}")
                 ],
-              [InlineKeyboardButton("🔙  Back Home", callback_data="cbguide")]]
+              [InlineKeyboardButton("ʙᴀᴄᴋ ʜᴏᴍᴇ", callback_data="cbguide")]]
         ),
     )
 
@@ -595,20 +595,20 @@ mostly, there wiil be the main error about to music assistant. If you are facing
 @Client.on_callback_query(filters.regex("cbtuto"))
 async def cbtuto(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""**Make Your Own Bot Like this💡**
+        f"""**ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏꜰ ᴛʜᴇ ʟᴜᴄᴋʏ ᴍᴜꜱɪᴄ ʙᴏᴛ**
 
-Good news! Now you can allow to make your own music bot like to this one. You will be get repo link below just click on it and follow steps!
+ɢᴜᴅ ɴᴇᴡꜱ ! ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴀʟʟᴏᴡ ᴛᴏ ʏᴏᴜʀ ᴏᴡɴ ᴍᴜꜱɪᴄ ʙᴏᴛ ʟɪᴋᴇ ᴛᴏ ᴛʜɪꜱ ᴏɴᴇ. ʏᴏᴜ ᴡɪʟʟ ʙᴇ ɢᴇᴛ ʀᴇᴘᴏ ʟɪɴᴋ ʙᴇʟᴏᴡ ᴊᴜꜱᴛ ᴄʟɪᴄᴋ ᴏɴ ɪᴛ ᴀɴᴅ ꜰᴏʟʟᴏᴡ ꜱᴛᴇᴘꜱ!
 
-If you didn't know how to make your own bot then contact us at @TeamCodexun and get help from us.
+ɪꜰ ᴜʜʜ ᴅɪᴅ'ᴛ ᴋɴᴏᴡ ʜᴏᴡᴡ ᴛᴏ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ ᴀᴛ @TeraYaarHooMai ᴀɴᴅ ɢᴇᴛ ʜᴇʟᴘ ꜰʀᴏᴍ ᴜꜱ.
 
-**🔗 Repo Link : https://github.com/PavanMagar/CodexunMusicBot**
+**🍒 ʀᴇᴘᴏ ʟɪɴᴋ : https://github.com/mrluckyxd/fortest**
 
-**Thanks !""",
+**ᴛʜᴀɴᴋꜱ !""",
        reply_markup=InlineKeyboardMarkup(
             [[
-                    InlineKeyboardButton("Get Repo 📦", url=f"https://github.com/PavanMagar/CodexunMusicBot")
+                    InlineKeyboardButton("🍑 ɢᴇᴛ ʀᴇᴘᴏ 🍑", url=f"https://github.com/PavanMagar/CodexunMusicBot")
                 ],
-              [InlineKeyboardButton("🔙  Back Home", callback_data="cbabout")]]
+              [InlineKeyboardButton("🍒 ʙᴀᴄᴋ ʜᴏᴍᴇ 🍒", callback_data="cbabout")]]
         ),
     )
 
@@ -665,12 +665,12 @@ async def cbmenu(_, query: CallbackQuery):
     chat_id = query.message.chat.id
     if is_music_playing(chat_id):
           await query.edit_message_text(
-              f"**⚙️ {BOT_NAME} Bot Settings**\n\n📮 Group : {query.message.chat.title}.\n📖 Grp ID : {query.message.chat.id}\n\n**Manage Your Groups Music System By Pressing Buttons Given Below 💡**",
+              f"**🍒 {BOT_NAME} ʙᴏᴛ ꜱᴇᴛᴛɪɴɢꜱ**\n\n🍎 ɢʀᴏᴜᴘ : {query.message.chat.title}.\n🍹 ɢʀᴘ ɪᴅ : {query.message.chat.id}\n\n**ᴍᴀɴᴀɢᴇᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴍᴜꜱɪᴄ ꜱʏꜱᴛᴇᴍ ʙʏ ᴘʀᴇꜱꜱɪɴɢ ʙᴜᴛᴛᴏɴꜱ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ 🍒**",
 
               reply_markup=menu_keyboard
          )
     else:
-        await query.answer("nothing is currently streaming", show_alert=True)
+        await query.answer("ɴᴏᴛʜɪɴɢ ɪꜱ ᴄᴜʀʀᴇɴᴛʟʏ ꜱᴛʀᴇᴀᴍɪɴɢ", show_alert=True)
 
 
 
@@ -690,11 +690,11 @@ async def high(_, CallbackQuery):
             
         await CallbackQuery.answer("Now streaming in high quality!", show_alert=True)
         await CallbackQuery.edit_message_text(
-        f"**Manage Audio Quality 🔊**\n\nChoose your option from given below to manage audio quality.",
+        f"**ᴍᴀɴᴀɢᴇᴇ ᴀᴜᴅɪᴏ Qᴜᴀʟɪᴛʏ 🔊**\n\nᴄʜᴏᴏꜱᴇ ʏᴏᴜʀ ᴏᴘᴛɪᴏɴ ꜰʀᴏᴍ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀᴜᴅɪᴏ Qᴜᴀʟɪᴛʏ.",
         reply_markup=highquality_keyboard
     )
     else:
-        await CallbackQuery.answer(f"Nothing is playing on voice chat.", show_alert=True)
+        await CallbackQuery.answer(f"ɴᴏᴛʜɪɴɢ ɪꜱ ᴘʟᴀʏɪɴɢ ʙᴀʙʏ.", show_alert=True)
 
 
 @Client.on_callback_query(filters.regex("low"))
@@ -713,11 +713,11 @@ async def low(_, CallbackQuery):
             
         await CallbackQuery.answer("Now streaming in low quality!", show_alert=True)
         await CallbackQuery.edit_message_text(
-        f"**Manage Audio Quality 🔊**\n\nChoose your option from given below to manage audio quality.",
+        f"**ᴍᴀɴᴀɢᴇ ᴀᴜᴅɪᴏ Qᴜᴀʟɪᴛʏ 🔊**\n\nᴄʜᴏᴏꜱᴇᴇ ʏᴏᴜʀ ᴏᴘᴛɪᴏɴ ꜰʀᴏᴍ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀᴜᴅɪᴏ Qᴜᴀʟɪᴛʏ.",
         reply_markup=lowquality_keyboard
     )
     else:
-        await CallbackQuery.answer(f"Nothing is playing on voice chat.", show_alert=True)
+        await CallbackQuery.answer(f"ɴᴏᴛʜɪɴɢ ɪꜱꜱ ᴘʟᴀʏɪɴɢ ʙᴀʙʏ.", show_alert=True)
 
 @Client.on_callback_query(filters.regex("medium"))
 async def medium(_, CallbackQuery):
@@ -735,11 +735,11 @@ async def medium(_, CallbackQuery):
             
         await CallbackQuery.answer("Now streaming in medium quality!", show_alert=True)
         await CallbackQuery.edit_message_text(
-        f"**Manage Audio Quality 🔊**\n\nChoose your option from given below to manage audio quality.",
+        f"**ᴍᴀɴᴀɢᴇᴇ ᴀᴜᴅɪᴏ Qᴜᴀʟɪᴛʏ🔊**\n\nᴄʜᴏᴏꜱᴇᴇ ʏᴏᴜʀ ᴏᴘᴛɪᴏɴɴ ꜰʀᴏᴍ ɢɪᴠᴇ ʙᴇʟᴏᴡ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀᴜᴅɪᴏ Qᴜᴀʟɪᴛʏ .",
         reply_markup=mediumquality_keyboard
     )
     else:
-        await CallbackQuery.answer(f"Nothing is playing on voice chat.", show_alert=True)
+        await CallbackQuery.answer(f"ɴᴏᴛʜɪɴɢ ɪꜱ ᴘʟᴀʏɪɴɢ ʙᴀʙʏ.", show_alert=True)
 
 @Client.on_callback_query(filters.regex("fifth"))
 async def fifth(_, CallbackQuery):
@@ -860,10 +860,10 @@ async def nonabout(_, query: CallbackQuery):
         reply_markup=InlineKeyboardMarkup(
             [
               [
-                    InlineKeyboardButton("Support 🚶", url=f"https://t.me/{SUPPORT}"),
-                    InlineKeyboardButton("Updates 🤖", url=f"https://t.me/{UPDATE}")
+                    InlineKeyboardButton("🍒 ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT}"),
+                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ 🍒", url=f"https://t.me/{UPDATE}")
                 ],
-              [InlineKeyboardButton("🔙  Back Menu", callback_data="cbmenu")]]
+              [InlineKeyboardButton("🍑 ʙᴀᴄᴋ ᴍᴇɴᴜ 🍑", callback_data="cbmenu")]]
         ),
     )
 

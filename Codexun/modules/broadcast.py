@@ -56,11 +56,11 @@ async def broadcast_message(_, message):
             except Exception:
                 pass
         await message.reply_text(
-            f"**Broadcasted Message In {sent}  Chats with {pin} Pins.**"
+            f"**🍑 ʙʀᴏᴀᴅᴄᴀꜱᴛ ᴍꜱɢ ɪɴ {sent}  ᴄʜᴀᴛꜱ ᴡɪᴛʜ {pin} ᴘɪɴꜱ.**"
         )
         return
     if len(message.command) < 2:
-        await message.reply_text("**Usage**:\n/gcast [message]")
+        await message.reply_text("**ᴜꜱᴀɢᴇ**:\n/gcast [ᴍᴇꜱꜱᴀɢᴇ]")
         return
     text = message.text.split(None, 1)[1]
     sent = 0

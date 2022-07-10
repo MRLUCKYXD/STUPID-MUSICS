@@ -15,28 +15,26 @@ from Codexun.config import START_IMG
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_IMG}",
-        caption=f"""**Welcome {message.from_user.mention()}** 👋
+        caption=f"""**ʜᴇʏ ʙᴀʙʏ, 🖤
+   ᴛʜɪs ɪs [{BOT_NAME}](https://t.me/{BOT_USERNAME}) 🥀
+ ᴀ ᴩᴏᴡᴇʀғᴜʟ ᴍᴜsɪᴄ ᴩʟᴀʏᴇʀ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.
 
-This is the **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) Bot,** a bot for playing high quality and unbreakable music in your groups voice chat.
-
-Just add me to your group & make as a admin with needed admin permissions to perform a right actions, now let's enjoy your music!
-
-Use the given buttons for more info📍""",
+ᴀʟʟ ᴏғ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴀʀᴇ ʟɪsᴛᴇᴅ ɪɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ.**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Commands", callback_data="cbcmnds"),
+                        "🍒 ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="cbcmnds"),
                     InlineKeyboardButton(
-                        "About", callback_data="cbabout")
+                        "ᴀʙᴏᴜᴛ 🍒", callback_data="cbabout")
                 ],
                 [
                     InlineKeyboardButton(
-                        "Basic Guide", callback_data="cbguide")
+                        "✘ ʙᴀꜱɪᴄ ɢᴜɪᴅᴇ ✘", callback_data="cbguide")
                 ],
                 [
                     InlineKeyboardButton(
-                        "✚ Add Bot in Your Group ✚", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "🥺 ᴋɪᴅɴᴀᴘ ᴍᴇ ʙᴀʙᴜ 🥺", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ]
            ]
         ),

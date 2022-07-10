@@ -106,7 +106,7 @@ fifth_keyboard = InlineKeyboardMarkup(
             
         ],[
             
-            InlineKeyboardButton("➋00% ♡", callback_data="fifth"),
+            InlineKeyboardButton("➋00% ❄️", callback_data="fifth"),
             
         ],[
             InlineKeyboardButton(text="◁ ɢᴏ ʙᴀᴄᴋ ▷", callback_data=f"cbmenu"),
@@ -124,7 +124,7 @@ fourth_keyboard = InlineKeyboardMarkup(
         ],[
             
             InlineKeyboardButton("100%", callback_data="third"),
-            InlineKeyboardButton("150% ♡", callback_data="fourth"),
+            InlineKeyboardButton("150% ❄️", callback_data="fourth"),
             
         ],[
             
@@ -145,7 +145,7 @@ third_keyboard = InlineKeyboardMarkup(
             
         ],[
             
-            InlineKeyboardButton("100% ♡", callback_data="third"),
+            InlineKeyboardButton("100% ❄️", callback_data="third"),
             InlineKeyboardButton("150%", callback_data="fourth"),
             
         ],[
@@ -163,7 +163,7 @@ second_keyboard = InlineKeyboardMarkup(
         [
             
             InlineKeyboardButton("20%", callback_data="first"),
-            InlineKeyboardButton("50% ♡", callback_data="second"),
+            InlineKeyboardButton("50% ❄️", callback_data="second"),
             
         ],[
             
@@ -184,7 +184,7 @@ first_keyboard = InlineKeyboardMarkup(
     [
         [
             
-            InlineKeyboardButton("20% ♡", callback_data="first"),
+            InlineKeyboardButton("20% ❄️", callback_data="first"),
             InlineKeyboardButton("50%", callback_data="second"),
             
         ],[
@@ -220,7 +220,7 @@ lowquality_keyboard = InlineKeyboardMarkup(
     [
         [
             
-            InlineKeyboardButton("ʟᴏᴡ Qᴜᴀʟɪᴛʏ ◉", callback_data="low"),],
+            InlineKeyboardButton("ʟᴏᴡ Qᴜᴀʟɪᴛʏ ❄️", callback_data="low"),],
          [   InlineKeyboardButton("ᴍᴇᴅɪᴜᴍ Qᴜᴀʟɪᴛʏ", callback_data="medium"),
             
         ],[   InlineKeyboardButton("ʜɪɢʜ Qᴜᴀʟɪᴛʏ", callback_data="high"),
@@ -236,7 +236,7 @@ mediumquality_keyboard = InlineKeyboardMarkup(
         [
             
             InlineKeyboardButton("ʟᴏᴡ Qᴜᴀʟɪᴛʏ", callback_data="low"),],
-         [   InlineKeyboardButton("ᴍᴇᴅɪᴜᴍ Qᴜᴀʟɪᴛʏ ◉", callback_data="medium"),
+         [   InlineKeyboardButton("ᴍᴇᴅɪᴜᴍ Qᴜᴀʟɪᴛʏ ❄️", callback_data="medium"),
             
         ],[   InlineKeyboardButton("ʜɪɢʜ Qᴜᴀʟɪᴛʏ", callback_data="high"),
             
@@ -289,7 +289,7 @@ async def skipvc(_, CallbackQuery):
     if not a.can_manage_voice_chats:
         return await CallbackQuery.answer(
             """
-ᴏɴʟʏ ᴀᴅᴍɪɴ ᴡɪᴛʜ ᴍᴀɴᴀɢᴇᴇ ᴠᴏɪᴄᴇᴇ ᴄʜᴀᴛ ᴘᴇʀᴍɪꜱꜱɪᴏɴ ᴄᴀɴ ᴅᴏ ᴛʜɪꜱ.
+ᴏɴʟʏ ᴀᴅᴍɪɴ ᴡɪᴛʜ ᴍᴀɴᴀɢᴇ ᴠᴏɪᴄᴇᴇ ᴄʜᴀᴛ ᴘᴇʀᴍɪꜱꜱɪᴏɴ ᴄᴀɴ ᴅᴏ ᴛʜɪꜱ.
 """,
             show_alert=True,
         )
@@ -419,7 +419,7 @@ async def cleandb(_, CallbackQuery):
         user_name = CallbackQuery.from_user.first_name
         rpk = "[" + user_name + "](tg://user?id=" + str(user_id) + ")"
         await CallbackQuery.edit_message_text(
-        f"✅ __Erased queues successfully__\n│\n╰ ᴅᴀᴛᴀʙᴀꜱᴇ ᴄʟᴇᴀɴᴇᴅ ʙʏ {rpk}",
+        f"❄️ ᴇʀᴀꜱᴇᴅ Qᴜᴇᴜᴇꜱ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ\n│\n╰ ᴅᴀᴛᴀʙᴀꜱᴇ ᴄʟᴇᴀɴᴇᴅ ʙʏ {rpk}",
         reply_markup=InlineKeyboardMarkup(
             [
             [InlineKeyboardButton("🍑 ᴄʟᴏꜱᴇ 🍑", callback_data="cls")]])
@@ -469,10 +469,10 @@ async def cbowncmnds(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""**🍒 ꜱᴜᴅᴏ ᴄᴏᴍᴍᴀɴᴅꜱ 🍒**
 
-• /broadcast (massage)
+• /broadcast (ᴍᴇꜱꜱᴀɢᴇ)
 - ʙʀᴏᴀᴅᴄᴀꜱᴛ ᴍꜱɢ ʙʏ ᴛʜᴇ ʙᴏᴛ
 
-• /gcast (massage) 
+• /gcast (ᴍᴇꜱꜱᴀɢᴇ) 
 - ʙʀᴏᴀᴅᴄᴀꜱᴛ ᴍꜱɢ ᴡɪᴛʜ ᴘɪɴ
 
 • /restart 
@@ -496,7 +496,7 @@ async def cbowncmnds(_, query: CallbackQuery):
 • /leaveall 
 - ʟᴇᴀᴠɪɴɢ ᴀꜱꜱɪꜱᴛᴀɴᴛ ꜰʀᴏᴍ ᴀʟʟ ᴄʜᴀᴛꜱ
 
-Pᴘᴏᴡᴇʀᴇᴅ ʙʏ **@{UPDATE}** !""",
+Pᴏᴡᴇʀᴇᴅ ʙʏ **@{UPDATE}** !""",
         reply_markup=InlineKeyboardMarkup(
             [
               
@@ -688,7 +688,7 @@ async def high(_, CallbackQuery):
             
         await CallbackQuery.answer("Now streaming in high quality!", show_alert=True)
         await CallbackQuery.edit_message_text(
-        f"**ᴍᴀɴᴀɢᴇᴇ ᴀᴜᴅɪᴏ Qᴜᴀʟɪᴛʏ 🔊**\n\nᴄʜᴏᴏꜱᴇ ʏᴏᴜʀ ᴏᴘᴛɪᴏɴ ꜰʀᴏᴍ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀᴜᴅɪᴏ Qᴜᴀʟɪᴛʏ.",
+        f"**ᴍᴀɴᴀɢᴇ ᴀᴜᴅɪᴏ Qᴜᴀʟɪᴛʏ 🔊**\n\nᴄʜᴏᴏꜱᴇ ʏᴏᴜʀ ᴏᴘᴛɪᴏɴ ꜰʀᴏᴍ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀᴜᴅɪᴏ Qᴜᴀʟɪᴛʏ.",
         reply_markup=highquality_keyboard
     )
     else:
@@ -733,7 +733,7 @@ async def medium(_, CallbackQuery):
             
         await CallbackQuery.answer("Now streaming in medium quality!", show_alert=True)
         await CallbackQuery.edit_message_text(
-        f"**ᴍᴀɴᴀɢᴇᴇ ᴀᴜᴅɪᴏ Qᴜᴀʟɪᴛʏ🔊**\n\nᴄʜᴏᴏꜱᴇᴇ ʏᴏᴜʀ ᴏᴘᴛɪᴏɴɴ ꜰʀᴏᴍ ɢɪᴠᴇ ʙᴇʟᴏᴡ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀᴜᴅɪᴏ Qᴜᴀʟɪᴛʏ .",
+        f"**ᴍᴀɴᴀɢᴇ ᴀᴜᴅɪᴏ Qᴜᴀʟɪᴛʏ🔊**\n\nᴄʜᴏᴏꜱᴇᴇ ʏᴏᴜʀ ᴏᴘᴛɪᴏɴɴ ꜰʀᴏᴍ ɢɪᴠᴇ ʙᴇʟᴏᴡ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀᴜᴅɪᴏ Qᴜᴀʟɪᴛʏ .",
         reply_markup=mediumquality_keyboard
     )
     else:
@@ -854,7 +854,7 @@ async def first(_, CallbackQuery):
 @Client.on_callback_query(filters.regex("nonabout"))
 async def nonabout(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""**Here is the some basic information about to {BOT_NAME},From here you can simply contact us and can join us!**""",
+        f"""**🍑 ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ꜱᴏᴍᴇ ʙᴀꜱɪᴄ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ {BOT_NAME},ꜰʀᴏᴍ ʜᴇʀᴇᴇ ʏᴏᴜᴜ ᴄᴀɴ ꜱɪᴍᴘʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ!**""",
         reply_markup=InlineKeyboardMarkup(
             [
               [

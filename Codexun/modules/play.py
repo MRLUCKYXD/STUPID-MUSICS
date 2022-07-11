@@ -312,8 +312,8 @@ async def play(_, message: Message):
     [
         
        [
-            InlineKeyboardButton("✪ ᴄᴘᴀɴᴇʟ", callback_data="cbmenu"),
-            InlineKeyboardButton("ᴀʙᴏᴜᴛ ✪", callback_data="nonabout"),
+            InlineKeyboardButton("🍒 ʟᴜᴄᴋʏ", url=f"https://t.me/Terayaarhoomai"),
+            InlineKeyboardButton("ᴡᴏʀʟᴅ 🍒", url=f"https://t.me/official_lucky01"),
         ],[
             InlineKeyboardButton("✪ ᴄʟᴏꜱᴇ ᴍᴇɴᴜ ✪", callback_data="cls"),
         ],
@@ -353,8 +353,8 @@ async def play(_, message: Message):
     [
         
        [
-            InlineKeyboardButton("✰ ᴄᴘᴀɴᴇʟ", callback_data="cbmenu"),
-            InlineKeyboardButton("ᴀʙᴏᴜᴛ ✰", callback_data="nonabout"),
+            InlineKeyboardButton("🍒 ʟᴜᴄᴋʏ", url=f"https://t.me/terayaarhoomai"),
+            InlineKeyboardButton("ᴡᴏʀʟᴅ 🍒", url=f"https://t.me/official_lucky01"),
         ],[
             InlineKeyboardButton("✰ ᴄʟᴏꜱᴇ ✰", callback_data="cls"),
         ],
@@ -485,8 +485,8 @@ async def play(_, message: Message):
     [
         
        [
-            InlineKeyboardButton("✰ ᴄᴘᴀɴᴇʟ", callback_data="cbmenu"),
-            InlineKeyboardButton("ᴀʙᴏᴜᴛ ✰", callback_data="nonabout"),
+            InlineKeyboardButton("🍒 ʟᴜᴄᴋʏ", url=f"https://t.me/terayaarhoomai"),
+            InlineKeyboardButton("ᴡᴏʀʟᴅ 🍒", url=f"https://t.me/official_lucky01"),
         ],[
             InlineKeyboardButton("✰ ᴄʟᴏꜱᴇ ✰", callback_data="cls"),
         ],
